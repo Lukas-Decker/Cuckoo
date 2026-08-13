@@ -1,0 +1,17 @@
+# build output
+bin/
+obj/
+dist/
+build/
+TestResults/
+.vs/
+*.user
+
+# runtime / user data (never commit)
+auth.json
+settings.json
+settings.json.*
+lock.file
+logs/
+*.log
+cache/
