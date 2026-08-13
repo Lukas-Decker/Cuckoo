@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Assets\cuckoo.ico</ApplicationIcon>
+    <!-- WPF0001: Fluent ThemeMode API is marked experimental -->
+    <NoWarn>$(NoWarn);WPF0001</NoWarn>
+    <AssemblyName>Cuckoo</AssemblyName>
+    <AssemblyTitle>Cuckoo (formerly Twitch Drops Miner)</AssemblyTitle>
+    <Product>Cuckoo</Product>
+    <Version>1.5.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.2" />
+    <PackageReference Include="H.NotifyIcon.Wpf" Version="2.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\*.ico" />
+  </ItemGroup>
+
+</Project>
+
+
