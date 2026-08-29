@@ -270,3 +270,8 @@ a headless build a small job rather than a rewrite.
 The protocol work, the GraphQL query set and the overall approach come from
 [DevilXD/TwitchDropsMiner](https://github.com/DevilXD/TwitchDropsMiner) (MIT). This is an
 independent C#/WPF reimplementation, not a fork of that codebase.
+
+## License
+
+MIT, see [LICENSE](LICENSE). Not affiliated with or endorsed by Twitch. Use at your own
+risk: automating watch progress may conflict with Twitch's Terms of Service.
